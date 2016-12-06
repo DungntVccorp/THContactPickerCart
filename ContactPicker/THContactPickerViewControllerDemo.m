@@ -25,6 +25,7 @@ NSString *THContactPickerContactCellReuseID = @"THContactPickerContactCell";
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
+    TH
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
         // Custom initialization

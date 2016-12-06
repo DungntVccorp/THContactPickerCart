@@ -15,10 +15,9 @@ FOUNDATION_EXPORT double ContactPickerFrameworkVersionNumber;
 FOUNDATION_EXPORT const unsigned char ContactPickerFrameworkVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <ContactPickerFramework/PublicHeader.h>
-#import <ContactPickerFramework/THContactViewStyle.h>
-#import <ContactPickerFramework/THContactView.h>
+#import <ContactPickerFramework/THBubbleColor.h>
+#import <ContactPickerFramework/THContactBubble.h>
 #import <ContactPickerFramework/THContactPickerView.h>
-#import <ContactPickerFramework/THContactTextField.h>
 
 
 
