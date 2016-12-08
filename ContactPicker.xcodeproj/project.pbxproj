@@ -25,6 +25,8 @@
 		6B3B2DFA183267B900798513 /* THContactView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B3B2DF4183267B900798513 /* THContactView.m */; };
 		6B3B2DFB183267B900798513 /* THContactPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B3B2DF6183267B900798513 /* THContactPickerView.m */; };
 		7D951FC119222B6800EFAAB4 /* THContactTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D951FC019222B6800EFAAB4 /* THContactTextField.m */; };
+		9919B25A1DF95ABD006AA21C /* ic_create_new_chat_delete_selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9919B2581DF95ABD006AA21C /* ic_create_new_chat_delete_selected@2x.png */; };
+		9919B25B1DF95ABD006AA21C /* ic_create_new_chat_delete_selected@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9919B2591DF95ABD006AA21C /* ic_create_new_chat_delete_selected@3x.png */; };
 		991EADD91DF6AEB20092504D /* ContactPickerFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 991EADD71DF6AEB20092504D /* ContactPickerFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		991EADDC1DF6AEB20092504D /* ContactPickerFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 991EADD51DF6AEB20092504D /* ContactPickerFramework.framework */; };
 		991EADDD1DF6AEB20092504D /* ContactPickerFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 991EADD51DF6AEB20092504D /* ContactPickerFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
@@ -88,6 +90,8 @@
 		6B3B2DF6183267B900798513 /* THContactPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = THContactPickerView.m; sourceTree = "<group>"; };
 		7D951FBF19222B6800EFAAB4 /* THContactTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THContactTextField.h; sourceTree = "<group>"; };
 		7D951FC019222B6800EFAAB4 /* THContactTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = THContactTextField.m; sourceTree = "<group>"; };
+		9919B2581DF95ABD006AA21C /* ic_create_new_chat_delete_selected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_create_new_chat_delete_selected@2x.png"; sourceTree = "<group>"; };
+		9919B2591DF95ABD006AA21C /* ic_create_new_chat_delete_selected@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_create_new_chat_delete_selected@3x.png"; sourceTree = "<group>"; };
 		991EADD51DF6AEB20092504D /* ContactPickerFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ContactPickerFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		991EADD71DF6AEB20092504D /* ContactPickerFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ContactPickerFramework.h; sourceTree = "<group>"; };
 		991EADD81DF6AEB20092504D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -200,6 +204,8 @@
 		991EADD61DF6AEB20092504D /* ContactPickerFramework */ = {
 			isa = PBXGroup;
 			children = (
+				9919B2581DF95ABD006AA21C /* ic_create_new_chat_delete_selected@2x.png */,
+				9919B2591DF95ABD006AA21C /* ic_create_new_chat_delete_selected@3x.png */,
 				991EADF21DF6B4710092504D /* THBubbleColor.h */,
 				991EADF31DF6B4710092504D /* THBubbleColor.m */,
 				991EADF41DF6B4710092504D /* THContactBubble.h */,
@@ -318,6 +324,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9919B25B1DF95ABD006AA21C /* ic_create_new_chat_delete_selected@3x.png in Resources */,
+				9919B25A1DF95ABD006AA21C /* ic_create_new_chat_delete_selected@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
