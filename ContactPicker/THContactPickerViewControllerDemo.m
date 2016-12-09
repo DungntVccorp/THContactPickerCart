@@ -8,6 +8,7 @@
 
 #import "THContactPickerViewControllerDemo.h"
 
+
 @interface THContactPickerViewControllerDemo () <THContactPickerDelegate>
 
 @property (nonatomic, strong) NSMutableArray *privateSelectedContacts;
@@ -25,7 +26,6 @@ NSString *THContactPickerContactCellReuseID = @"THContactPickerContactCell";
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
-    TH
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
         // Custom initialization

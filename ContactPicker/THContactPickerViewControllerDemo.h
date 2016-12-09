@@ -6,7 +6,7 @@
 //  Copyright (c) 2013 Tristan Himmelman. All rights reserved.
 //
 
-#import "THContactPickerView.h"
+#import <ContactPickerFramework/THContactPickerView.h>
 
 @interface THContactPickerViewControllerDemo : UIViewController <UITableViewDataSource, UITableViewDelegate>
 
