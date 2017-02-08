@@ -74,12 +74,16 @@
     // Add placeholder label
     self.placeholderLabel = [[UILabel alloc] init];
     self.placeholderLabel.textColor = [UIColor grayColor];
+    self.placeholderLabel.textColor = [[UIColor alloc] initWithRed:190.0/255.0 green:192.0/255.0 blue:206.0/255.0 alpha:1];
+    self.placeholderLabel.font = [UIFont systemFontOfSize:15];
     self.placeholderLabel.backgroundColor = [UIColor clearColor];
     [self.scrollView addSubview:self.placeholderLabel];
     
     self.promptLabel = [[UILabel alloc] init];
     self.promptLabel.backgroundColor = [UIColor clearColor];
+    self.promptLabel.textColor = [[UIColor alloc] initWithRed:55.0/255.0 green:58.0/255.0 blue:75.0/255.0 alpha:1];
     self.promptLabel.text = nil;
+    self.promptLabel.font = [UIFont systemFontOfSize:17];
     [self.promptLabel sizeToFit];
     [self.scrollView addSubview:self.promptLabel];
     
@@ -99,7 +103,7 @@
     THContactView *contactView = [[THContactView alloc] initWithName:@""];
     self.contactViewStyle = contactView.style;
     self.contactViewSelectedStyle = contactView.selectedStyle;
-    self.font = contactView.label.font;
+    self.font = [UIFont systemFontOfSize:17];
 }
 
 #pragma mark - Public functions
@@ -112,11 +116,8 @@
     [contactView setFont:font];
     self.lineHeight = contactView.frame.size.height + 2 * kVerticalPadding;
     
-    self.textField.font = font;
     [self.textField sizeToFit];
     
-    self.promptLabel.font = font;
-    self.placeholderLabel.font = font;
     [self updateLabelFrames];
 	
 	[self setNeedsLayout];

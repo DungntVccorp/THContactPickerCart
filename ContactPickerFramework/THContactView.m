@@ -17,7 +17,7 @@
 
 @implementation THContactView
 
-#define kHorizontalPadding 3
+#define kHorizontalPadding 5
 #define kHorizontalPaddingWithBackground 8
 #define kVerticalPadding 2
 
@@ -181,7 +181,7 @@
     self.label.textColor = self.selectedStyle.textColor;
     self.layer.borderWidth = self.selectedStyle.borderWidth;
     if (self.selectedStyle.cornerRadiusFactor > 0) {
-        self.layer.cornerRadius = self.bounds.size.height / self.selectedStyle.cornerRadiusFactor;
+        self.layer.cornerRadius = 3;
     } else {
         self.layer.cornerRadius = 0;
     }
@@ -204,7 +204,7 @@
     self.label.textColor = self.style.textColor;
     self.layer.borderWidth = self.style.borderWidth;
     if (self.style.cornerRadiusFactor > 0) {
-        self.layer.cornerRadius = self.bounds.size.height / self.style.cornerRadiusFactor;
+        self.layer.cornerRadius = 3;
     }
     else {
         self.layer.cornerRadius = 0;

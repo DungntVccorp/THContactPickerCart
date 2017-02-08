@@ -49,8 +49,11 @@ NSString *THContactPickerContactCellReuseID = @"THContactPickerContactCell";
     self.contactPickerView = [[THContactPickerView alloc] initWithFrame:CGRectMake(0, 0, self.view.frame.size.width, kPickerViewHeight)];
     self.contactPickerView.autoresizingMask = UIViewAutoresizingFlexibleBottomMargin|UIViewAutoresizingFlexibleWidth;
     self.contactPickerView.delegate = self;
-    [self.contactPickerView setPlaceholderLabelText:@"Who would you like to message?"];
-    [self.contactPickerView setPromptLabelText:@"To:"];
+    [self.contactPickerView setPlaceholderLabelText:@"Nhập để tìm kiếm"];
+    [self.contactPickerView setPromptLabelText:@"Đến:"];
+    THContactViewStyle * vtn =  [[THContactViewStyle alloc] initWithTextColor:[UIColor colorWithRed:0 green:161.0/255.0 blue:222.0/255.0 alpha:1] backgroundColor:[UIColor clearColor] cornerRadiusFactor:2];
+    THContactViewStyle * vts =  [[THContactViewStyle alloc] initWithTextColor:[UIColor whiteColor] backgroundColor:[UIColor colorWithRed:77.0/255.0 green:189.0/255.0 blue:232.0/255.0 alpha:1] cornerRadiusFactor:2];
+    [self.contactPickerView setContactViewStyle:vtn selectedStyle:vts];
     //[self.contactPickerView setLimitToOne:YES];
     [self.view addSubview:self.contactPickerView];
     
